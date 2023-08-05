@@ -1,0 +1,56 @@
+/*
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+.texto-verde {
+    color: green;
+}
+
+#titulo-3 {
+    color: blueviolet;
+}
+
+p .texto-resaltado {
+    font-size: 24px;
+    font-weight: bold;
+}
+*/
+
+body {
+    background-color: #4A4238;
+    color: #FCEFF9;
+}
+
+header {
+    background-color: #91A8A4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 15px 0;
+}
+header nav ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #1F2041;
+}
